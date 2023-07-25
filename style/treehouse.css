@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.inner {
+    margin: 4px auto;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sec {
+    background-color: blueviolet;
+    color: aliceblue;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+
+}
+
+.logo{
+    height: 50px;
+}
+
+
+#header .inner nav{
+    width: 50%;
+}
+
+#header .inner nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+} 
+
+#header .inner nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#header .inner nav ul li:last-child a {
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(46, 46, 208);
+}
+
+#cover {
+    margin: 70px auto;
+    width: 90%;
+    display: flex;
+    /* align-items: center; */
+}
+
+#cover .left h1{
+    font-size: 3rem;
+    color: grey;
+}
+
+#cover .left p{
+    max-width: 210px;
+    
+}
+
+#cover .left form{
+    border: 2px solid yellow;
+    width: 50%;
+    padding: 30px 0px;
+    margin-top: 30px;
+    /* padding-left: 0; */
+}
+
+#cover .left form label span{
+    color: red;
+}
+
+#cover .left form label{
+    /* padding: 20px 0px; */
+    width: 10%;
+    border: 1px solid black;
+}
+
+#cover .left form input {
+    /* margin: 20px; */
+    padding: 20px 0px;
+}

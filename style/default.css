@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    background-color: rgb(253, 236, 210);
+    font-size: 16px;
+}
+header h1{
+   color: white;
+   background-color: black;
+   text-align: center;
+   padding: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+    margin: 40px auto;
+    text-align: center;
+    background-color: #eadede;
+    /* border: solid 1px grey; */
+    border-radius: 6px;
+    box-shadow: 2px 3px 15px grey;
+    padding: 10px;
+    
+}
+
+#user{
+    margin-top: 6px;
+}
+
+form input , 
+select {
+    width: 100%;
+    padding: 8px 0px;
+    margin: 3px auto;
+    /* text-align: center; */
+    padding-left: 10px;
+    border-width: 2px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    
+}
+
+form input[type=submit] {
+    width: 30%;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: rgb(161, 159, 159);
+    /* border: none; */
+    border-width: 1px;
+    /* box-shadow: 1px 1px 3px grey; */
+}
+
+#details{
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+    margin: 40px auto;
+    /* border: dashed 1px grey; */
+    text-align: center;
+    background-color: #e4dede;
+    /* border: solid 1px grey; */
+    border-radius: 6px;
+    box-shadow: 2px 3px 10px grey;
+    margin-bottom: 0;
+    
+}
+#details div{   
+    width: 100%;
+    padding: 8px 0px;
+    margin: 1px auto;
+    text-align: center;
+    border-width: 2px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.d{
+    margin: 40px auto;
+    text-align: center;
+    /* background-color: aqua; */
+    box-shadow: 2px 3px 15px grey;
+    width: 50%;
+    border-radius: 10px;
+    border: 1px;
+}
+
+.d input{
+    width: 100%;
+    border: none;
+    background-color: rgb(106, 99, 99) ;
+    padding: 5px 2px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border-radius: 6px;
+}
+
+footer{
+    background-color: black;
+    color: #cfcccc;
+    text-align: center;
+    padding: 20px;
+    margin-top: 8px;
+}

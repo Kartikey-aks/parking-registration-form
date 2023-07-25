@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#sec {
+    color: aliceblue;
+    /* background-color: rgb(128 , 40 , 153 ); */
+    background-color: rgb(23, 142, 163);
+    text-align: center;
+    padding: 11px;
+    font-weight: bold;
+}
+
+#sec a {
+    color: aliceblue;
+}
+
+#sec a:hover{
+    color: blue;
+}
+
+#head .inner {
+    width: 97%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#head .inner #logo {
+    height: 50px;
+    opacity: 0.86;
+}
+
+#head .inner #logo:hover {
+    opacity: 1;
+}
+
+#head .inner nav {
+    width: 55%;
+}
+
+#head .inner nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+#head .inner nav ul li a {
+    padding: 5px 8px;
+    color: #40484a;
+    font-size: 1.2rem;
+    text-decoration: none;
+    line-height: 3%;
+}
+
+#head .inner nav ul li:last-child a {
+    background-color: #008298;
+    color: #ffff;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    padding: 7px 15px;
+}
+
+#head .inner nav ul li a:hover {
+    color: rgb(30, 130, 96);
+}
+
+#head .inner nav ul li:last-child a:hover {
+    background-color: #004855;
+    color: #ffff;
+}
+
+#cover {
+    /* border: 2px solid red; */
+    width: 92%;
+    margin: 110px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cover .left {
+    color: #576366;
+    font-size: 1rem;
+    font-weight:500;
+}
+
+#cover .left h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    color: #40484a;
+    letter-spacing: 2px;
+}
+
+#cover .left form {
+    margin: 40px 0px 0px 0px;
+    /* border: 2px solid green; */
+    color: #40484a;
+}
+
+#cover .left form span {
+    color: #ed7f35;
+}
+
+#cover .left form input {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    border-color: #d4d9dd;
+    border-radius: 4px;
+    background-color: #f9fafa;
+    transition: .2s;
+    width: 45%;
+    border: 2px solid #d4d9dd;
+    color: #40484a;
+}
+
+#cover .left form input:hover{
+    border-color: #40484a;
+}
+
+#cover .left form input[type=submit] {
+    background-color: #40484a;
+    border-color: #40484a;
+    color: #fff;
+    font-weight: bold;
+    padding-right:30px;   
+    padding-left:30px;   
+    width: 25%;
+    margin-left: 10px;
+}
